@@ -7,7 +7,18 @@
 
 // Needed for redux-saga es6 generator support
 import 'babel-polyfill';
-;;}{
+;;
+
+
+var templateLiteral = `this is a template `;
+
+console.log('this is not allowed');
+
+var someObj = {
+  'youcantdothis': 'here',
+  'youcantdothis': 'here'
+};
+
 // Import all the third party stuff
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -81,7 +92,7 @@ const rootRoute = {
 
 const render = (messages) => {
   ReactDOM.render(
-    <Provider store={store}>
+    <Provider store={store} someattr='blah'>
       <LanguageProvider messages={messages}>
         <Router
           history={history}
