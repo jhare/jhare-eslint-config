@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config",
+  "name": "jhare-eslint-config",
   "version": "1.0.0",
-  "description": "Telogical ES6, React, JSX ESLint configuration ",
+  "description": "ES6, React, JSX ESLint configuration ",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
