@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Telogical ES6, React, JSX ESLint configuration ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jhare",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
